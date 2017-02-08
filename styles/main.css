@@ -74,6 +74,16 @@ nav ul li {
 	height: 100px;
 }
 
+.artContent {
+	background: #f0eecc;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	width: 100px;
+	height: 150px;
+}
+
 footer {
 	clear: both;
 }
