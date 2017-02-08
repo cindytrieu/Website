@@ -1,0 +1,79 @@
+/* -------------- MAIN.CSS -----------------*/
+html{
+	height: 100%;
+}
+
+body {
+	background: #cfd6d9; /* bluish gray bg for website */
+	margin: 0;
+	height: 100%;
+}
+
+header {
+	margin: 0;
+}
+
+header h1 {
+	background: white;
+	margin: 0;
+	padding: 40px 25px 5px 25px;
+}
+
+h2 {
+	padding: 0 40px;
+}
+
+h3 {
+	margin: 0;
+	padding: 0 10px;
+}
+
+nav ul {
+	background: #f482b8; /* pink bg for navbar */
+	margin: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 0 10px;
+	font-size: 18pt;
+}
+
+.currPage {
+	background: #af7fef;
+	margin: 0;
+	padding: 5px;
+}
+
+.leftSideBar {
+	background: #7fceef;
+	float: left;
+	width: 20%;
+	height: 70%;
+	overflow: hidden;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 10px;
+}
+
+.mainContent {
+	background: #7fceef;
+	float: left;
+	margin: 5px;
+	width: 60%;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.subContent {
+	background: #f0eecc;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	height: 100px;
+}
+
+footer {
+	clear: both;
+}
