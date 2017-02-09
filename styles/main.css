@@ -41,6 +41,11 @@ nav ul li {
 	font-size: 18pt;
 }
 
+p { 
+	margin: 10px;
+	padding: 0 10px;
+}
+
 .currPage {
 	background: #af7fef;
 	margin: 0;
