@@ -7,6 +7,7 @@ body {
 	background: #cfd6d9; /* bluish gray bg for website */
 	margin: 0;
 	height: 100%;
+	font-family: calibri;
 }
 
 header {
@@ -84,6 +85,76 @@ nav ul li {
 	height: 150px;
 }
 
+.counterContainer {
+	margin: 10px;
+	background: #7fceef;
+	float: left;
+	border-radius: 10px;
+	padding: 10px;
+	width: 95%;
+}
+
+.counter {
+	margin: 10px;
+	background: #f0eecc;
+	float: left;
+	border-radius: 10px;
+	padding: 5px;
+	width: 200px;
+	height: 100px;
+	overflow: hidden;
+}
+
+.counterName {
+	text-align: center;
+}
+
+.counterVal {
+	background: white;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 5px;
+	margin: 5px;
+}
+
+.mod {
+	display: inline-block;
+	padding: 5px 16px;
+}
+
+.mod:hover {
+	background: white;
+	border-radius: 10px;
+}
+
+.mod:active {
+	background: #dedede;
+	border-radius: 10px;
+}
+
+.addCounter {
+	text-align: center;
+}
+
+.fade {
+	background: white;
+	position: relative;
+	top: -100px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	opacity: 0;
+	transition: .5s;
+}
+
+.fade:hover {
+	opacity: .6;
+}
+
 footer {
 	clear: both;
+	margin: 10px;
 }

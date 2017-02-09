@@ -21,19 +21,29 @@
 			</nav>
 		</header>
 	
-		<h2>Welcome!</h2>
+		<h2>Basic Counter App</h2>
 		
-		<div class="leftSideBar">
-			<h3>Left side bar</h3>
+		<div class="counterContainer">
+			<div class="counter">
+				<div class="counterName"
+					onclick="changeName(this);">
+						Name</div>
+				<div class="counterVal" 
+					onclick="setVal(this);"
+					>
+						0</div>
+				<div class="mod" onclick="modify(this, -5)">-5</div>
+				<div class="mod" onclick="modify(this, -1)">-1</div>
+				<div class="mod" onclick="modify(this, 1)">+1</div>
+				<div class="mod" onclick="modify(this, 5)">+5</div>
+			</div>
+			
+			<div class="counter addCounter" onclick="createCounter(this.parentNode, this);">
+				<div class="counterName">Add Counter</div>
+				<img src="../img/add.png" class="addImg"></img>
+				<div class="fade"></div>
+			</div>
 		</div>
-		
-		<div class="mainContent">
-			<h3>Main content</h3>
-			<div class="subContent">Sub content 1</div>
-			<div class="subContent">Sub content 2</div>
-			<div class="subContent">Sub content 3</div>
-		</div>
-
 		
 	</body>
 	
@@ -41,5 +51,5 @@
 	<footer>
 		© Cindy Trieu 2017
 	</footer>
-
+	<script src="../js/main.js"></script>
 </html>
