@@ -1,0 +1,187 @@
+/* -------------- MAIN.CSS -----------------*/
+html{
+	height: 100%;
+}
+
+body {
+	background: #cfd6d9;
+	margin: 0;
+	height: 100%;
+	font-family: calibri;
+}
+
+header {
+	margin: 0;
+}
+
+header h1 {
+	background: white;
+	margin: 0;
+	padding: 40px 25px 5px 25px;
+}
+
+h2 {
+	padding: 0 40px;
+}
+
+h3 {
+	margin: 0;
+	padding: 0 10px;
+}
+
+nav ul {
+	background: #4191ce;
+	margin: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 0 10px;
+	font-size: 18pt;
+	color: white;
+}
+
+a {
+	color: white;
+	transition: .5s;
+}
+
+a:link {
+	text-decoration: none;
+	margin: 0;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+a:hover {
+	background-color: white;
+	color: black;
+}
+
+p { 
+	margin: 10px;
+	padding: 0 10px;
+}
+
+.currPage {
+	background: #0f4ca3;
+	margin: 0;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.leftSideBar {
+	background: #4191ce;
+	float: left;
+	width: 20%;
+	height: 70%;
+	overflow: hidden;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 10px;
+}
+
+.mainContent {
+	background: #4191ce;
+	float: left;
+	margin: 5px;
+	width: 60%;
+	padding: 10px;
+	border-radius: 10px;
+	color: white;
+}
+
+.subContent {
+	background: #eaeaea;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	height: 100px;
+	color: black;
+}
+
+.artContent {
+	background: #eaeaea;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	width: 100px;
+	height: 150px;
+	color: black;
+}
+
+.counterContainer {
+	margin: 10px;
+	background: #4191ce;
+	float: left;
+	border-radius: 10px;
+	padding: 10px;
+	width: 95%;
+}
+
+.counter {
+	margin: 10px;
+	background: #eaeaea;
+	float: left;
+	border-radius: 10px;
+	padding: 5px;
+	width: 200px;
+	height: 100px;
+	overflow: hidden;
+}
+
+.counterName {
+	text-align: center;
+}
+
+.counterVal {
+	background: white;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 5px;
+	margin: 5px;
+}
+
+.mod {
+	display: inline-block;
+	padding: 5px 16px;
+}
+
+.mod:hover {
+	background: white;
+	border-radius: 10px;
+}
+
+.mod:active {
+	background: #dedede;
+	border-radius: 10px;
+}
+
+.addCounter {
+	text-align: center;
+}
+
+.fade {
+	background: white;
+	position: relative;
+	top: -100px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	opacity: 0;
+	transition: .5s;
+}
+
+.fade:hover {
+	opacity: .6;
+}
+
+footer {
+	clear: both;
+	margin: 10px;
+}
