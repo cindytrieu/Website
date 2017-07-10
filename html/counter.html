@@ -11,52 +11,54 @@
 	<!------------ BODY ---------------------->
 	<body>
 		<header>
-			<h1>The Cindy Zone</h1>
+			<h1><div class="headerBody">The Cindy Zone</div></h1>
 			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="games.html">Games</a></li>
-					<li><a href="art.html">Art</a></li>
-					<li class="currPage">Counter App</li>
-				</ul>
+				<div class="headerBody">
+					<ul>
+						<a href="index.html"><li>Home</li></a>
+						<a href="games.html"><li class="currPage">Games</li></a>
+						<a href="art.html"><li>Art</li></a>
+					</ul>
+				</div>
 			</nav>
 		</header>
-	
-		<h2>Basic Counter App</h2>
-		<p>I personally use this for Star Realms,<br>
-		but feel free to use this in your MtG games also.<br>
-		Let me know if you would like me to add more to it.<br>
-		There is not a reset button yet, so for now just<br>
-		reload the page if you want to clear everything.
-		</p>
 		
-		<div class="counterContainer">
-			<div class="counter">
-				<div class="counterName"
-					onclick="changeName(this);">
-						Name</div>
-				<div class="counterVal" 
-					onclick="setVal(this);"
-					>
-						0</div>
-				<div class="mod" onclick="modify(this, -5)">-5</div>
-				<div class="mod" onclick="modify(this, -1)">-1</div>
-				<div class="mod" onclick="modify(this, 1)">+1</div>
-				<div class="mod" onclick="modify(this, 5)">+5</div>
-			</div>
+		<div class="mainBody">
+			<h2>Basic Counter App</h2>
+			<p>
+			There is not a reset button yet, so for now just<br>
+			reload the page if you want to clear everything.<br>
+			You can click to edit the name and value of the counter.<br>
+			Click the modifier buttons below to change the values while playing. :)
+			</p>
 			
-			<div class="counter addCounter" onclick="createCounter(this.parentNode, this);">
-				<div class="counterName">Add Counter</div>
-				<img src="img/add.png" class="addImg"></img>
-				<div class="fade"></div>
+			<div class="counterContainer">
+				<div class="counter">
+					<div class="counterName"
+						onclick="changeName(this);">
+							Name</div>
+					<div class="counterVal" 
+						onclick="setVal(this);"
+						>
+							0</div>
+					<div class="mod" onclick="modify(this, -5)">-5</div>
+					<div class="mod" onclick="modify(this, -1)">-1</div>
+					<div class="mod" onclick="modify(this, 1)">+1</div>
+					<div class="mod" onclick="modify(this, 5)">+5</div>
+				</div>
+				
+				<div class="counter addCounter" onclick="createCounter(this.parentNode, this);">
+					<div class="counterName">Add Counter</div>
+					<img src="img/add.png" class="addImg"></img>
+					<div class="fade"></div>
+				</div>
 			</div>
 		</div>
-		
 	</body>
 	
 	<!------------ FOOTER -------------------->
 	<footer>
-		© Cindy Trieu 2017
+		&copy Cindy Trieu 2017
 	</footer>
 	<script src="js/main.js"></script>
 </html>

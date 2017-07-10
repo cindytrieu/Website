@@ -11,36 +11,76 @@
 	<!------------ BODY ---------------------->
 	<body>
 		<header>
-			<h1>The Cindy Zone</h1>
+			<h1><div class="headerBody">The Cindy Zone</div></h1>
 			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li class="currPage">Games</li>
-					<li><a href="art.html">Art</a></li>
-					<li><a href="counter.html">Counter App</a></li>
-				</ul>
+				<div class="headerBody">
+					<ul>
+						<a href="index.html"><li>Home</li></a>
+						<li class="currPage">Games</li>
+						<a href="art.html"><li>Art</li></a>
+					</ul>
+				</div>
 			</nav>
 		</header>
-	
-		<h2>My Games</h2>
 		
-		<div class="leftSideBar">
-			<h3>Left side bar</h3>
+		<div class="mainBody">
+			<h2>My Games</h2>
+			
+			<div class="mainContent">
+				<h3>Many tears have been put into these games</h3>
+				<p>Games at the top are the newest.</p>
+				
+				<!------------ SIDE SCROLLER -------------------->
+				<div class="subContent">
+					<a href="sidescroller.html"><img src="img/placeholder.png" class="gamePreview"></a>
+					<b>Side Scroller: experimenting</b>
+					<p>Learning more about javascript by making a simple side scroller :)</p>
+				</div>
+				
+				<!------------ BREAKOUT -------------------->
+				<div class="subContent">
+					<a href="breakout.html"><img src="img/Breakout.png" class="gamePreview"></a>
+					<b>Breakout</b>
+					<p>Breakout game made with only javascript.</p>
+				</div>
+				
+				<!------------ COUNTER APP -------------------->
+				<div class="subContent">
+					<a href="counter.html"><img src="img/CounterApp.png" class="gamePreview"></a>
+					<b>Counter App</b>
+					<p>I personally use this for Star Realms, 
+					but feel free to use this in your MtG games also. 
+					Let me know if you would like me to add more to it.</p>
+				</div>
+				
+				<!------------ MIRROR GAME -------------------->
+				<div class="subContent">
+					<a href="mirrorGame.html"><img src="img/MirrorGame.png" class="gamePreview"></a>
+					<b>Disperse!</b>
+					<p>
+					This is a puzzle game with mirrors I made for a game design class 
+					back in 2013. I enjoyed making it and I hope you enjoy playing it. :)
+					</p>
+				</div>
+				
+				<!------------ SPACE INFESTATION GAME -------------------->
+				<div class="subContent">
+					<a href="spaceInfestation.html"><img src="img/SpaceInfestation.png" class="gamePreview"></a>
+					<b>Space Infestation</b>
+					<p>
+					Local 2-player shooter that I made for a game design class 
+					back in 2013. I did all the art for this game and my partner 
+					did all the programming. :)
+					</p>
+				</div>
+			</div>
 		</div>
-		
-		<div class="mainContent">
-			<h3>Many tears have been put into these games</h3>
-			<div class="subContent">Game 1</div>
-			<div class="subContent">Game 2</div>
-			<div class="subContent">Game 3</div>
-		</div>
-
 		
 	</body>
 	
 	<!------------ FOOTER -------------------->
 	<footer>
-		© Cindy Trieu 2017
+		&copy Cindy Trieu 2017
 	</footer>
 
 </html>

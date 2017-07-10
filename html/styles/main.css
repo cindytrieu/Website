@@ -10,8 +10,14 @@ body {
 	font-family: calibri;
 }
 
+.mainBody {
+	width: 1000px;
+	margin: 0 auto;
+}
+
 header {
 	margin: 0;
+	width: 100%;
 }
 
 header h1 {
@@ -25,33 +31,56 @@ h2 {
 }
 
 h3 {
-	margin: 0;
+	margin: 5px;
 	padding: 0 10px;
 }
+
+nav {
+	background: #4191ce;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.headerBody {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+}
+
 
 nav ul {
 	background: #4191ce;
 	margin: 0;
+	padding: 0;
 }
 
 nav ul li {
 	display: inline-block;
 	list-style-type: none;
-	padding: 0 10px;
+	padding: 5px 10px;
 	font-size: 18pt;
 	color: white;
+	border-radius: 10px;
+	transition: .5s;
 }
 
 a {
 	color: white;
 	transition: .5s;
+	float: left;
+	border-radius: 10px;
+}
+
+nav a:link {
+	text-decoration: none;
+	padding: 0px;
 }
 
 a:link {
 	text-decoration: none;
 	margin: 0;
 	padding: 5px;
-	border-radius: 10px;
 }
 
 a:hover {
@@ -59,42 +88,67 @@ a:hover {
 	color: black;
 }
 
+nav ul li:hover {
+	background-color: white;
+	color: black;
+}
+
+
+nav ul a:hover {
+	background-color: transparent;
+	color: black;
+}
+
+
+.currPage:hover {
+	background: #0f4ca3;
+	color: white;
+}
+
+
+nav a {
+	float: none;
+}
+
+
+.gamePreview {
+	float: left;
+	margin: 0 10px 0 0;
+	height: 100px;
+}
+
 p { 
 	margin: 10px;
 	padding: 0 10px;
 }
 
-.currPage {
-	background: #0f4ca3;
-	margin: 0;
-	padding: 5px;
-	border-radius: 10px;
+.game {
+	margin: 20px;
 }
 
-.leftSideBar {
-	background: #4191ce;
-	float: left;
-	width: 20%;
-	height: 70%;
-	overflow: hidden;
-	padding: 10px;
-	margin: 5px;
-	border-radius: 10px;
+.breakout {
+	background: #fff;
+	display: block;
+	margin: 0 auto;
+}
+
+.currPage {
+	background: #0f4ca3;
 }
 
 .mainContent {
 	background: #4191ce;
 	float: left;
-	margin: 5px;
-	width: 60%;
-	padding: 10px;
+	margin: 0px;
+	width: 100%;
+	padding: 10px 0;
 	border-radius: 10px;
 	color: white;
 }
 
 .subContent {
 	background: #eaeaea;
-	margin: 10px;
+	margin: 20px;
 	padding: 10px;
 	border-radius: 10px;
 	height: 100px;
@@ -102,13 +156,15 @@ p {
 }
 
 .artContent {
+	position: relative;
+	left: 10px;
 	background: #eaeaea;
 	float: left;
-	margin: 10px;
-	padding: 10px;
+	margin: 5px;
+	padding: 5px;
 	border-radius: 10px;
-	width: 100px;
-	height: 150px;
+	width: 110px;
+	height: 210px;
 	color: black;
 }
 
@@ -183,5 +239,7 @@ p {
 
 footer {
 	clear: both;
-	margin: 10px;
+	padding: 10px 0;
+	margin: 20px;
+	text-align: center;
 }
