@@ -1,6 +1,7 @@
 /*
 	MAIN.JS
 	Author: Cindy Trieu
+	Copyright 2017
 */
 
 function modify(el, mod){

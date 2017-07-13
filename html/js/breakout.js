@@ -38,9 +38,9 @@ var brickOffsetSide = 50;
 
 //create bricks
 var bricks = [];
-for( c = 0; c < brickColumnCount; c++){
+for( var c = 0; c < brickColumnCount; c++){
 	bricks[c] = [];
-	for(r = 0; r < brickRowCount; r++){
+	for( var r = 0; r < brickRowCount; r++){
 		var tempR = Math.round(Math.random()*255);
 		var tempG = Math.round(Math.random()*255);
 		var tempB = Math.round(Math.random()*255);
